@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: right;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+h3 {
+  margin: 20px;
+  text-align: center;
+}
+.book-container {
+  width: 70%;
+  margin: auto;
+}
