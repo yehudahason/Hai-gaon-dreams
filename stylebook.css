@@ -27,6 +27,11 @@ h3 {
   text-align: center;
 }
 .book-container {
-  width: 70%;
+  border-radius: 10px;
+  padding: 60px;
+  background-color: blueviolet;
+  width: 80%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
   margin: auto;
+  margin-bottom: 40px;
 }
