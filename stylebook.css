@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   direction: rtl;
-  background-color: blue;
+  background-color: rgb(3, 3, 142);
   color: white;
   font-size: 24px;
 }
@@ -26,12 +26,86 @@ h3 {
   font-size: 30px;
   text-align: center;
 }
+
+h4 {
+  text-align: center;
+}
 .book-container {
   border-radius: 10px;
   padding: 60px;
-  background-color: blueviolet;
+  background-color: rgb(6, 64, 173);
   width: 80%;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   margin: auto;
   margin-bottom: 40px;
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}
+
+.circle1 {
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  background-color: rgb(48, 77, 240);
+  border-radius: 35px;
+  animation: rotate1 10s infinite linear;
+}
+
+.circle2 {
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  background-color: rgb(48, 77, 240);
+  border-radius: 35px;
+  animation: rotate2 10s infinite linear;
+}
+
+.in {
+  position: absolute;
+  text-align: center;
+}
+.in b {
+  margin: 3px;
+}
+
+i {
+  animation: side 1s infinite ease-in-out;
+}
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes side {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(-5x);
+  }
 }
