@@ -49,6 +49,17 @@ h4 {
   border-radius: 10px;
 }
 
+.about-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+  margin: 20px;
+}
 .links {
   display: flex;
   color: rgb(250, 236, 236);
