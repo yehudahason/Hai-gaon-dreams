@@ -116,28 +116,35 @@ h4 {
 
 .circle1 {
   position: absolute;
-  height: 220px;
-  width: 220px;
+  height: 100px;
+  width: 100px;
   background-color: rgb(195, 188, 56);
-  border-radius: 45px;
-  animation: rotate1 10s infinite linear;
+  border-radius: 23px;
+  transform: rotate(45deg);
+  animation: rotate1 24s linear infinite;
+
 }
 
 .circle2 {
   position: absolute;
-  height: 220px;
-  width: 220px;
+  height: 100px;
+  width: 100px;
   background-color: rgb(195, 188, 56);
-  border-radius: 45px;
-  animation: rotate2 10s infinite linear;
+  border-radius: 23px;
+  animation: rotate2 24s linear infinite;
 }
 
 .in {
-  position: absolute;
+  margin-top: 30px;
+  width: 100%;
+  margin: auto;  
+  
   text-align: center;
 }
 
-
+.in b{
+  color: bisque;
+}
 
 @keyframes rotate1 {
   from {
