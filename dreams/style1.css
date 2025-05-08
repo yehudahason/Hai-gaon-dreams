@@ -36,11 +36,14 @@ body::before {
  .headercontainer {
     display: flex ;
     flex-direction:  column;
+    justify-content: center;
+    align-items: center;
     
  }
 
  .navcontainer {
     display: flex ;
+    flex-wrap: wrap;
 
  }
  .main-container {
@@ -80,4 +83,12 @@ a {
 
 .headercontainer a:hover {
     color: burlywood;
+}
+
+@media screen and (max-width:768px) {
+    .main-container {
+        width: 100%;
+        margin: 10px;
+    }
+    
 }
