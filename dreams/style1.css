@@ -67,7 +67,9 @@ a {
   color: blanchedalmond;
   margin: 10px;
 }
-
+.cntrlnk {
+  text-align: center;
+}
 .headercontainer a:hover {
   color: burlywood;
 }
