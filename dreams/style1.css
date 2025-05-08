@@ -62,9 +62,6 @@ h1 ,h2 {
 
 }
 
-h2 {
-    text-decoration: underline ;
-}
 
 .headercontainer a {
     cursor: pointer;
@@ -78,7 +75,7 @@ a {
     cursor: pointer;
     text-decoration: none;
     color: blanchedalmond;
-    margin: 25px;
+    margin: 10px;
 }
 
 .headercontainer a:hover {
