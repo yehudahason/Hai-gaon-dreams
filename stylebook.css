@@ -126,7 +126,6 @@ h4 {
 .circle2 {
   position: absolute;
   left: 60px;
-
   height: 100px;
   width: 100px;
   background-color: rgb(195, 188, 56);
@@ -135,9 +134,8 @@ h4 {
 }
 
 .in {
-  margin-top: 30px;
+  margin: 40px auto;
   width: 100%;
-  margin: auto;
 
   text-align: center;
 }
