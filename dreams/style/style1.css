@@ -10,7 +10,7 @@ body {
   color: rgb(255, 255, 255);
   text-align: right;
   direction: rtl;
-  background-image: url(bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
