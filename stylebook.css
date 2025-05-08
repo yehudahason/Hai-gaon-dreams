@@ -68,10 +68,14 @@ h4 {
 }
 
 .links {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 60px;
   display: flex;
   color: rgb(250, 236, 236);
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 .links a {
   font-weight: bold;
@@ -86,6 +90,7 @@ h4 {
 }
 .index-container a img {
   height: 470px;
+  margin: 20px;
 }
 .book-container {
   border-radius: 10px;
@@ -130,13 +135,9 @@ h4 {
   position: absolute;
   text-align: center;
 }
-.in b {
-  margin: 3px;
-}
 
-i {
-  animation: side 1s infinite ease-in-out;
-}
+
+
 @keyframes rotate1 {
   from {
     transform: rotate(0deg);
@@ -157,21 +158,7 @@ i {
   }
 }
 
-@keyframes side {
-  0% {
-    transform: translateX(-5px);
-  }
-  50% {
-    transform: translateX(5px);
-  }
 
-  75% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(-5x);
-  }
-}
 
 @media screen and (max-width:768px){
  .book-container {
