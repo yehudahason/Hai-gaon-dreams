@@ -62,5 +62,5 @@ a {
 }
 
 .headercontainer a:hover {
-    transform: scale(0.95);
+    color: burlywood;
 }
