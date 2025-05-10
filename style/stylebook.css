@@ -80,7 +80,7 @@ h4 {
   font-weight: bold;
   cursor: pointer;
   color: rgb(247, 233, 233);
-  margin: 25px;
+  margin: 10px 25px;
   text-decoration: none;
 }
 
@@ -170,5 +170,9 @@ h4 {
     padding: 25px;
     font-size: 20px;
     line-height: 1.5;
+  }
+  .links {
+    flex-wrap: wrap;
+    height: 120px;
   }
 }
