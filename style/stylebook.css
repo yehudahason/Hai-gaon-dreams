@@ -32,6 +32,7 @@ h3 {
 }
 
 h4 {
+  color: rgb(182, 187, 73);
   text-align: center;
 }
 
@@ -86,6 +87,17 @@ h4 {
 
 .links a:hover {
   color: burlywood;
+}
+
+.roe-links {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roe-links a {
+  margin: 8px 12px;
+  color: rgb(182, 187, 73);
 }
 .index-container a img {
   height: 470px;
