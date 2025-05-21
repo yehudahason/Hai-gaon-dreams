@@ -98,6 +98,11 @@ h4 {
 .roe-links a {
   margin: 8px 12px;
   color: rgb(182, 187, 73);
+  cursor: pointer;
+  text-decoration: none;
+}
+.roe-links a:hover {
+  color: rgb(173, 154, 31);
 }
 .index-container a img {
   height: 470px;
