@@ -167,6 +167,11 @@ h4 {
   color: bisque;
 }
 
+button i {
+  color: rgb(64, 64, 228);
+}
+
+
 @keyframes rotate1 {
   from {
     transform: rotate(0deg);
