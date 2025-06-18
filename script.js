@@ -8,7 +8,5 @@ btnEl.addEventListener ( "click", (e) =>{
 })
 
 inputEl.addEventListener("change" , (e) => {
- e.preventDefault()   
  param = e.target.value
- window.location.href = `https://www.google.com/search?q=site:https://pitron-halomot.org "${param}"`
 })
